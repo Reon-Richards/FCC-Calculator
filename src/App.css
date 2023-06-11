@@ -1,38 +1,156 @@
-.App {
-  text-align: center;
+.Calculator {
+  height: 570px;
+  width: 400px;
+  padding:1px;
+  background-color:hotpink;
+  margin: auto;
+  margin-top: 50px;
+  font-size:xx-large;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.display{
+  background-color:black;
+
+  font-family: Orbitron;
+  color: darkturquoise;
+  text-align:right;
+  border-right: 20px solid black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#display {
+  height : 70px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  line-height:70px;
+  overflow: hidden;
+}
+
+  #calcDisplay {
+  height : 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size:medium;
+  color:orange;
+  overflow: hidden;
+}
+
+.numb, .calc{
+  font-family: Palette Mosaic;
+  line-height: 88px;
+  color:rgb(16, 192, 215);
+  border: 1px solid  darkturquoise;
+  height: 88px;
+  width: 93px;
+  position:absolute;
+  text-align:center;
+}
+
+.numb{
+  background-color:rgb(14, 232, 239);
+}
+
+.calc{
+  background-color: rgba(123, 34, 49, 0.779);
+}
+
+.clear{
+  background-color:silver;
+  height: 88px;
+  font-family: Palette Mosaic;
+  color:rgb(143, 131, 131);
+  border: 1px solid  darkturquoise;
+  width: 188px;
+  margin-left: 10px;
+  line-height:88px;
+  text-indent: 20px;
+  direction: rtl;
+  position: absolute;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#divide{
+  margin-left: 200px;
   }
-  to {
-    transform: rotate(360deg);
+
+#multiply{
+  margin-left: 295px;
   }
+
+#seven{
+  margin-top: 90px;
+  margin-left: 10px;
+  }
+
+#eight{
+  margin-top: 90px;
+  margin-left: 105px;
+}
+
+#nine{
+  margin-top: 90px;
+  margin-left: 200px;
+}
+
+#subtract{
+  margin-top: 90px;
+  margin-left: 295px;
+}
+
+#four{
+  margin-top: 180px;
+  margin-left: 10px;
+}
+
+#five{
+  margin-top: 180px;
+  margin-left: 105px;
+}
+
+#six{
+  margin-top: 180px;
+  margin-left: 200px;
+}
+
+#add{
+  margin-top: 180px;
+  margin-left: 295px;
+}
+
+#one{
+  margin-top: 270px;
+  margin-left: 10px;
+}
+
+#two{
+  margin-top: 270px;
+  margin-left: 105px;
+}
+
+#three{
+  margin-top: 270px;
+  margin-left: 200px;
+}
+
+#equals{
+  margin-top: 270px;
+  margin-left: 295px;
+  height: 178px;
+  line-height: 178px;
+}
+
+#zero{
+  margin-top: 360px;
+  margin-left: 10px;
+  width: 188px;
+}
+
+#decimal{
+  margin-top: 360px;
+  margin-left: 200px;
+}
+
+#button{
+  margin-top: 450px;
+  margin-left: 300px;
 }
